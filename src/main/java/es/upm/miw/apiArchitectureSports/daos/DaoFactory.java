@@ -12,9 +12,11 @@ public abstract class DaoFactory {
         assert factory != null;
         return factory;
     }
+    
+    public abstract UserDao getUserDao();
 
-    public abstract ThemeDao getThemeDao();
-
-    public abstract VoteDao getVoteDao();
+    public abstract SportDao getSportDao();
+    
+    public abstract UserSportDao getUserSportDao();
 
 }

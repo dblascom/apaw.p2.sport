@@ -14,11 +14,11 @@ public class ApiArchitectureMain {
 	private HttpRequest request = new HttpRequest();
 
 	public void help() {
-	    System.out.println("GET **/themes");
-	    System.out.println("POST **/themes   body=\"themeName\"");
-	    System.out.println("GET **/themes/{id}/overage");
-	    System.out.println("POST **/votes   body=\"themeId:vote\"");
-	    System.out.println("GET **/votes");
+	    IO.getIO().println("GET **/themes");
+	    IO.getIO().println("POST **/themes   body=\"themeName\"");
+	    IO.getIO().println("GET **/themes/{id}/overage");
+	    IO.getIO().println("POST **/votes   body=\"themeId:vote\"");
+	    IO.getIO().println("GET **/votes");
 	}
 
 	public void demo() {
