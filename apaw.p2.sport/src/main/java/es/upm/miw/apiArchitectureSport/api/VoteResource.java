@@ -1,4 +1,4 @@
-package es.upm.miw.apiArchitectureSport.controllers;
+package es.upm.miw.apiArchitectureSport.api;
 
 import es.upm.miw.apiArchitectureSport.controllers.VoteController;
 import es.upm.miw.apiArchitectureSport.exceptions.InvalidVoteException;
